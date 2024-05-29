@@ -1,0 +1,345 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-756-267
+INFO:werkzeug: * Detected change in 'c:\\Users\\3446dt\\Repos\\ecommerce_dashboard-main\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-756-267
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:08:50] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:08:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:08:58] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:08:58] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:08:59] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:08:59] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:08:59] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:08:59] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:08:59] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:08:59] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:08:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:09:00] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:16:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:16:51] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:16:51] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:16:51] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:16:51] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:16:51] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:16:51] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:16:51] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:16:51] "GET /api/product_category_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:16:51] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:17:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:17:54] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:17:54] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:17:54] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:17:54] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:17:54] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:17:54] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:17:54] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:17:54] "GET /api/product_category_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:17:56] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-756-267
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:25:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:25:49] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:25:49] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:25:49] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:25:49] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:25:49] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:25:49] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:25:49] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:25:49] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:25:50] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-756-267
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-756-267
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:37:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:37:27] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:37:27] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:37:27] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:37:27] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:37:28] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:37:28] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:37:28] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:37:28] "GET /api/product_category_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:37:28] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:39:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:39:23] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:39:23] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:39:23] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:39:24] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:39:24] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:39:24] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:39:24] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:39:24] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:39:24] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\3446dt\\Repos\\ecommerce_dashboard-main\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-756-267
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:00] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:00] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:01] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:01] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:01] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:01] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:01] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:01] "GET /api/orders_over_time HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=52.52&longitude=13.41&start_date=2024-05-13&end_date=2024-05-27&hourly=temperature_2m&latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:01] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\3446dt\\Repos\\ecommerce_dashboard-main\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-756-267
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:43] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:43] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:44] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:44] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:44] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:44] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:44] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:44] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 08:53:44] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\3446dt\\Repos\\ecommerce_dashboard-main\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-756-267
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 131-756-267
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:09:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:09:31] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:09:31] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:09:31] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:09:31] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:09:31] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:09:31] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:09:31] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:09:31] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:09:32] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:12:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:12:25] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:12:25] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:12:25] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:12:25] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:12:25] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:12:25] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:12:25] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:12:25] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:12:26] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:17:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:17:55] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:17:55] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:17:55] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:17:55] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:17:55] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:17:55] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:17:55] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:17:55] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:17:59] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\3446dt\\Repos\\ecommerce_dashboard-main\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:34:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:34:37] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:34:38] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:34:38] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:34:38] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:34:38] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:34:38] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:34:38] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:34:38] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:34:39] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:49:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:49:37] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:49:37] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:49:37] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:49:38] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:49:38] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:49:38] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:49:38] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:49:38] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 09:49:39] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:26:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:26:56] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:26:56] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:26:56] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:26:56] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:26:56] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:26:56] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:26:56] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:26:56] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:26:57] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:27:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:27:22] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:27:22] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:27:22] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:27:22] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:27:22] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:27:22] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:27:22] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:27:22] "GET /api/low_stock_levels HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:27:23] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:01] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:01] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:01] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:01] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:01] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:01] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:01] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:01] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/era5?latitude=52.52&longitude=13.41&start_date=2021-01-01&end_date=2021-12-31&hourly=temperature_2m&latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:01] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:02] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:02] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:02] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:02] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:02] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:02] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:02] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:02] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/era5?latitude=52.52&longitude=13.41&start_date=2021-01-01&end_date=2021-12-31&hourly=temperature_2m&latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:02] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:06] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:06] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:06] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:06] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:06] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:06] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:06] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:06] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/era5?latitude=52.52&longitude=13.41&start_date=2021-01-01&end_date=2021-12-31&hourly=temperature_2m&latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:35:06] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:44:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:44:29] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:44:29] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:44:29] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:44:29] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:44:29] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:44:29] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:44:29] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:44:29] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/era5?latitude=52.52&longitude=13.41&start_date=2021-01-01&end_date=2021-12-31&hourly=temperature_2m&latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:44:29] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:45:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:45:38] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:45:38] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:45:38] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:45:38] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:45:38] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:45:38] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:45:38] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:45:38] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/era5?latitude=52.52&longitude=13.41&start_date=2021-01-01&end_date=2021-12-31&hourly=temperature_2m&latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:45:38] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:47:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:47:25] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:47:25] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:47:25] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:47:25] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:47:25] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:47:25] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:47:25] "GET /api/product_category_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:47:25] "GET /api/revenue_generation HTTP/1.1" 200 -
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/era5?latitude=52.52&longitude=13.41&start_date=2021-01-01&end_date=2021-12-31&hourly=temperature_2m&latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:47:25] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:36] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:36] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:36] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:36] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:36] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:36] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:36] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:36] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/era5?latitude=52.52&longitude=13.41&start_date=2021-01-01&end_date=2021-12-31&hourly=temperature_2m&latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:36] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:47] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:47] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:47] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:47] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:47] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:47] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:47] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:47] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/era5?latitude=52.52&longitude=13.41&start_date=2021-01-01&end_date=2021-12-31&hourly=temperature_2m&latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 10:56:48] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 11:04:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 11:04:51] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 11:04:51] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 11:04:51] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 11:04:51] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 11:04:51] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 11:04:51] "GET /api/product_category_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 11:04:51] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 11:04:51] "GET /api/low_stock_levels HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+ERROR:root:Error in /api/temperature_over_time: HTTPSConnectionPool(host='archive-api.open-meteo.com', port=443): Max retries exceeded with url: /v1/era5?latitude=52.52&longitude=13.41&start_date=2021-01-01&end_date=2021-12-31&hourly=temperature_2m&latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:werkzeug:127.0.0.1 - - [29/May/2024 11:04:51] "[35m[1mGET /api/temperature_over_time HTTP/1.1[0m" 500 -
